@@ -1,7 +1,7 @@
 class Juego {
   constructor() {
     this.estado = 0;
-    //this.musicaIniciada = false;
+    this.musicaIniciada = false;
     this.portada = new Inicio();
     this.pantallaInstrucciones = new Instrucciones();
     this.pantallaCreditos = new Creditos();
@@ -215,3 +215,4 @@ class Juego {
     }
   }
 }
+
